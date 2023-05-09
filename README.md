@@ -1,8 +1,7 @@
 
-Made the frontend for a gaming platform for freelance client. Currently the data is hardcoded and static. The frontend link is deployed on vercel and attached. 
+Built the entire frontend of a gaming platform for a freelance client. Currently the data is hardcoded and static. The frontend link is deployed on vercel and attached. 
 
 The project comprises of the landing page and upoon singning up with google the user is redirected to the dashboard. 
-
 
 ## PAGES 
 - Landing page
