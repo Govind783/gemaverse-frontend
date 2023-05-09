@@ -286,7 +286,7 @@ const DashboardDailyChallenge = () => {
 
                                     <br />
 
-                                    <div className='text-white text-[10px] text-center'>Terms And Conditions: <span className='text-[#5A5A5A]'>Don't Create Toxicity environment due to the Gemaverse Challenge.</span> </div>
+                                    <div className='text-white text-[10px] text-center'>Terms And Conditions: <span className='text-[#5A5A5A]'>Don&apos;t Create Toxicity environment due to the Gemaverse Challenge.</span>  </div>
                                     <br />
 
                                 </div>
@@ -331,7 +331,7 @@ const DashboardDailyChallenge = () => {
                                         <div className="flex flex-col gap-3 items-center">
                                             <button className='dashBoardHeroBtn text-white h-10 w-36' onClick={openThridModal}>PARTICIPATE</button>
                                             <br />
-                                            <div className='text-white text-[10px] text-center md::whitespace-nowrap'>Terms And Conditions: <span className='text-[#5A5A5A]'>Don't Create Toxicity environment due to the Gemaverse Challenge.</span> </div>
+                                            <div className='text-white text-[10px] text-center md::whitespace-nowrap'>Terms And Conditions: <span className='text-[#5A5A5A]'>Don&apos;t Create Toxicity environment due to the Gemaverse Challenge.</span> </div>
                                         </div>
                                         <br />
                                     </div>
@@ -374,7 +374,7 @@ const DashboardDailyChallenge = () => {
                                     <br />
 
                                     <div className='flex items-end gap-3'>
-                                    <label htmlFor="fileInput" className='dashBoardHeroBtn text-white h-9 cursor-pointer'>
+                                        <label htmlFor="fileInput" className='dashBoardHeroBtn text-white h-9 cursor-pointer'>
                                             UPLOAD
                                         </label>
                                         <div className="text-xs text-gray-400 text-[9px]">
@@ -400,7 +400,7 @@ const DashboardDailyChallenge = () => {
                                     <div className="flex justify-center items-center">
                                         <div className="flex flex-col gap-7 items-center">
                                             <button className='dashBoardHeroBtn text-white h-9'>SUBMIT</button>
-                                            <div className='text-white text-[10px] text-center'>Terms And Conditions: <span className='text-[#5A5A5A]'>Don't Create Toxicity environment due to the Gemaverse Challenge.</span> </div>
+                                            <div className='text-white text-[10px] text-center'>Terms And Conditions: <span className='text-[#5A5A5A]'>Don&apos;t Create Toxicity environment due to the Gemaverse Challenge.</span> </div>
                                         </div>
                                     </div>
                                 </div>

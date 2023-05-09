@@ -9,7 +9,7 @@ const HomeIndex = () => {
 
 
     useEffect(() => {
-        const controller = controllerRef.current!;
+        const controller:any = controllerRef.current!;
 
         const handleMouseMove = (event: React.MouseEvent<HTMLImageElement>) => {
             const { clientX, clientY } = event;

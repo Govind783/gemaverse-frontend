@@ -509,11 +509,11 @@ body {
   animation: mouseScroll .8s cubic-bezier(.7, 0, .3, 1) infinite alternate;
   z-index: 2;
 }
-
+/*
 .controller {
   cursor: url("../assets/yellowCursor.png"), auto;
 
-}
+}*/
 
 .mouse .rollshadow {
   position: absolute;

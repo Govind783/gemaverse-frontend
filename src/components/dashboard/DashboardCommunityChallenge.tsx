@@ -237,7 +237,7 @@ const DashboardCommunityChallenge = () => {
                                     </div>
                                     <br />
                                     <br />
-                                    <div className='text-white text-[10px] text-center'>Terms And Conditions: <span className='text-[#5A5A5A]'>Don't Create Toxicity environment due to the Gemaverse Challenge.</span> </div>
+                                    <div className='text-white text-[10px] text-center'>Terms And Conditions: <span className='text-[#5A5A5A]'>Don&apos;t Create Toxicity environment due to the Gemaverse Challenge.</span> </div>
                                 </div>
                             </div>
                         </ModalBody>
@@ -301,7 +301,7 @@ const DashboardCommunityChallenge = () => {
                                     <div className="flex justify-center items-center">
                                         <div className="flex flex-col gap-7 items-center">
                                             <button className='dashBoardHeroBtn text-white h-9'>SUBMIT</button>
-                                            <div className='text-white text-[10px] text-center'>Terms And Conditions: <span className='text-[#5A5A5A]'>Don't Create Toxicity environment due to the Gemaverse Challenge.</span> </div>
+                                            <div className='text-white text-[10px] text-center'>Terms And Conditions: <span className='text-[#5A5A5A]'>Don&apos;t Create Toxicity environment due to the Gemaverse Challenge.</span> </div>
                                         </div>
                                     </div>
                                 </div>

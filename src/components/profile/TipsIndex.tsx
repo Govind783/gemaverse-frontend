@@ -416,7 +416,7 @@ const TipsIndex = () => {
                                                 <div className="flex flex-col gap-4 pt-12 pl-8 items-center">
                                                     {matchDta.map((item) => {
                                                         return (
-                                                            <div className="flex w-[100%] items-center justify-between gap-4">
+                                                            <div className="flex w-[100%] items-center justify-between gap-4" key={item.category}>
                                                                 <p className='text-gray-500 uppercase font-light text-sm'>{item.category}</p>
                                                                 <p className='text-sm  w-1/2  tracking-wider uppercase text-left font-light text-white'> {item.result} </p>
                                                             </div>
@@ -660,7 +660,7 @@ const TipsIndex = () => {
 
                                                             {tipsModalOpponentStats.map((item) => {
                                                                 return (
-                                                                    <div className="flex w-full justify-evenly items-center h-12 tipsOpponentIndivitualRow">
+                                                                    <div className="flex w-full justify-evenly items-center h-12 tipsOpponentIndivitualRow" key={item.id}>
                                                                         <div className="flex items-center justify-start w-full md:pl-0 relative -left-2 md:left-0">
                                                                             <div className='flex items-center justify-start gap-3'>
                                                                                 <p className='text-[9px] font-semibold'>VS</p>

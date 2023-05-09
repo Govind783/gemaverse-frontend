@@ -139,13 +139,9 @@ const MegaPrizeIndex = () => {
                                 <p className='megaPirzeHeading text-xl'>MEGA CHALLENGE DESC</p>
                                 <div className='megaChallengeDivider mt-2 mb-2'></div>
                                 <p className=' capitalize box1Description montestratFont w-[83%]'>
-                                    Get ready for the ultimate gaming event of the year!
-                                    Compete against top gamers from around the world and
-                                    showcase your in-game skills to score points and climb the
-                                    leaderboard. all players have a chance to win the coveted
-                                    Mega Prize. Don't miss out on this unforgettable gaming
-                                    experience!
+                                    Get ready for the ultimate gaming event of the year! Compete against top gamers from around the world and showcase your in-game skills to score points and climb the leaderboard. all players have a chance to win the coveted Mega Prize. Don&apos;t miss out on this unforgettable gaming experience!
                                 </p>
+
 
                                 <div className="flex items-center justify-between mt-7">
                                     <div className="flex items-center gap-1">

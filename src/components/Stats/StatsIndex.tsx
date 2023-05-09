@@ -553,7 +553,7 @@ const StatsIndex = () => {
 
                                         {matchData.map((item) => {
                                             return (
-                                                <div className="megaChallengeIndivitualRow statsINdexRowPurple h-12">
+                                                <div className="megaChallengeIndivitualRow statsINdexRowPurple h-12" key={item.id}>
 
                                                     <div className="flex md:justify-around justify-start gap-8 md:gap-12 ml-1 md:ml-0">
                                                         <Image src={item.agent} alt='' quality={100} className=' pt-1 md:pt-0 w-10' />
@@ -612,7 +612,7 @@ const StatsIndex = () => {
                                     <div className="flex flex-col items-center gap-3 w-full">
                                         {matchData.map((item) => {
                                             return (
-                                                <div className="megaChallengeIndivitualRow statsINdexRowPurple h-12">
+                                                <div className="megaChallengeIndivitualRow statsINdexRowPurple h-12" key={item.id}>
 
                                                     <div className="flex md:justify-around justify-start gap-8 md:gap-12 ml-1 md:ml-0">
                                                         <Image src={item.agent} alt='' quality={100} className=' pt-1 md:pt-0 w-10' />

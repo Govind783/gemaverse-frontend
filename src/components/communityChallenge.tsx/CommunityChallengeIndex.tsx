@@ -140,7 +140,7 @@ const CommunityChallengeIndex = () => {
                                 Compete against top gamers from around the world and  <br />
                                 showcase your in-game skills to score points and climb the <br />
                                 leaderboard. all players have a chance to win the coveted  <br />
-                                Mega Prize. Don't miss out on this unforgettable gaming <br />
+                                Mega Prize. Dont miss out on this unforgettable gaming <br />
                                 experience!
                             </p>
 
