@@ -1,3 +1,96 @@
+
+Built the entire frontend of a gaming platform for a freelance client. Currently the data is hardcoded and static. The frontend link is deployed on vercel and attached. 
+
+The project comprises of the landing page and upoon singning up with google the user is redirected to the dashboard. 
+
+## PAGES 
+- Landing page
+- homepage (accessible after signing up with google)
+- Inventory page
+- Marketplace page
+- Premium Page
+- Stats page
+- Profile Page
+- Tips Page
+- Megarprize page
+- Settings page
+- Communitychallenge page
+
+
+## TECH STACK
+- Next js
+- Typescript
+- Tailwind
+- Chakra UI
+- Vanilla css
+
+Images Attached below => 
+
+dashboard home page =>
+
+![Homepage](https://live.staticflickr.com/65535/52884326663_a08fb8d5ea_z.jpg)
+
+![Homepage](https://live.staticflickr.com/65535/52884255630_419fb5fc59_z.jpg)
+
+![Homepage](https://live.staticflickr.com/65535/52883884196_26169df3fd_z.jpg)
+
+
+
+Megaprize page =>
+
+![Homepage](https://live.staticflickr.com/65535/52883884241_8ea2cffe11_z.jpg)
+
+
+Marektplace page =>
+
+![Homepage](https://live.staticflickr.com/65535/52883300672_dfbf4715df_z.jpg)
+![Homepage](https://live.staticflickr.com/65535/52883884336_278f2fef88_z.jpg)
+
+
+
+Premium page => 
+
+![Homepage](https://live.staticflickr.com/65535/52883884416_9505164e77_z.jpg)
+
+
+Stats page => 
+
+![Homepage](https://live.staticflickr.com/65535/52883300807_59b4358ce9_z.jpg)
+![Homepage](https://live.staticflickr.com/65535/52884326918_a2bf1836cc_z.jpg)
+![Homepage](https://live.staticflickr.com/65535/52883884486_6b90bec0f1_z.jpg)
+![Homepage](https://live.staticflickr.com/65535/52883300897_b8c3c498cd_z.jpg)
+
+
+Profile page => 
+
+![Homepage](https://live.staticflickr.com/65535/52884045354_2c6ae97a72_z.jpg)
+![Homepage](https://live.staticflickr.com/65535/52883884511_210f89a7bc_z.jpg)
+
+
+Tips page =>
+
+![Homepage](https://live.staticflickr.com/65535/52884255950_2b3bc6a4cb_z.jpg)
+![Homepage](https://live.staticflickr.com/65535/52883884526_117b10e64d_z.jpg)
+![Homepage](https://live.staticflickr.com/65535/52884327088_2e7bb9c017_z.jpg)
+![Homepage](https://live.staticflickr.com/65535/52884045389_63a1f45617_z.jpg)
+
+
+Sidebar => 
+
+![Homepage](https://live.staticflickr.com/65535/52883300972_da6112598f_z.jpg)
+
+
+Settings page => 
+
+![Homepage](https://live.staticflickr.com/65535/52884256050_e0d3db92ee_z.jpg)
+
+
+And yes currently all the data is static and hardcoded as the client only wanted the frontend UI and neither will google-o-auth nor will login with riot id or discord work
+
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
