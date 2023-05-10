@@ -39,7 +39,7 @@ const DashboardSidebar = () => {
             <div className="sideBarHold w-24 hidden md:flex flex-col gap-8 items-center justify-center">
                 <div className='relative  flex flex-col gap-8 items-center justify-center'>
                     <div className='expandButtonHold rounded w-10 h-10 flex relative cursor-pointer -top-6 justify-center items-center'>
-                        <Image quality={100} src={expandBtn} alt='expand' onClick={onOpen} />
+                        <Image quality={100} src={expandBtn} priority alt='expand' onClick={onOpen} />
                     </div>
 
                     <div className="relative mt-4 -top-5">
@@ -108,7 +108,7 @@ const DashboardSidebar = () => {
                         <DrawerContent>
                             <DrawerHeader>
                                 <div className='expandButtonHold rounded w-10 h-10 flex relative mt-6 ml-2 justify-center items-center'>
-                                    <Image quality={100} src={drawerCloseBtn} alt='expand' onClick={onClose} className='cursor-pointer' />
+                                    <Image quality={100} src={drawerCloseBtn} priority alt='expand' onClick={onClose} className='cursor-pointer' />
                                 </div>
                             </DrawerHeader>
                             <DrawerBody>
@@ -195,7 +195,7 @@ const DashboardSidebar = () => {
             </div>
 
             <div className='expandButtonHold rounded w-10 h-10 md:hidden flex relative cursor-pointer ml-4 top-6 z-10 justify-center items-center'>
-                <Image quality={100} src={expandBtn} alt='expand' onClick={onOpen} />
+                <Image quality={100} src={expandBtn} priority alt='expand' onClick={onOpen} />
             </div>
 
             <div className='md:hidden'>
@@ -205,7 +205,7 @@ const DashboardSidebar = () => {
                         <DrawerContent>
                             <DrawerHeader>
                                 <div className='expandButtonHold rounded w-10 h-10 flex relative mt-6 ml-2 justify-center items-center'>
-                                    <Image quality={100} src={drawerCloseBtn} alt='expand' onClick={onClose} className='cursor-pointer' />
+                                    <Image quality={100} priority src={drawerCloseBtn} alt='expand' onClick={onClose} className='cursor-pointer' />
                                 </div>
                             </DrawerHeader>
                             <DrawerBody>

@@ -766,8 +766,9 @@ body {
 }
 
 @media screen and (max-width: 640px) {
+  
   .backgoundpathmobile {
-    background-attachment: fixed;
+    background-position: 5% 50%;
     clip-path: polygon(0% 0%,
         31% 0%,
         33.5% 4%,
@@ -867,11 +868,12 @@ body {
   }
 
   .heroDashboardContainer {
-    height: 23rem !important;
+    height: 22.99rem !important;
     width: 100%;
     top: 30px !important;
     padding-left: 0.1rem;
     padding-right: 0.8rem;
+    left: 0.1rem;
   }
 }
 

@@ -236,6 +236,7 @@ const DashboardDailyChallenge = () => {
                                     <div className="flex justify-center">
                                         <button className='dashBoardHeroBtn text-white h-10'>AUTHENTICATE</button>
                                     </div>
+                                    <br />
                                 </div>
                             </div>
 
