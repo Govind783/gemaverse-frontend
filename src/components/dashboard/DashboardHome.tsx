@@ -16,7 +16,7 @@ const DashboardHome = () => {
 
 
                 <div className="xl:w-[1266px] lg:w-[1100px] md:w-[900px] sm:w-[640px sm:h-[280px] h-[400px] border-[1px] backgoundpathmobile2 sm:border-0 border-[#43E5F1]">
-                    <div className="xl:w-[1266px] lg:w-[1100px] md:w-[900px] sm:w-[640px] w-[400px] sm:h-[280px] h-[400px] backgoundpathfirst bg-cover sm:bg-center bg-right bg-no-repeat flex imageBg backgoundpathmobile justify-start items-start ">
+                    <div className="xl:w-[1266px] lg:w-[1100px] md:w-[900px] sm:w-[640px] w-[400px] sm:h-[280px] h-[400px] backgoundpathfirst bg-cover sm:bg-center bg-[center_111px] bg-no-repeat flex imageBg backgoundpathmobile justify-start items-start ">
 
                         {<div className="heroDashboardContainer pb-10 relative top-12 md:ml-8 bg-black bg-opacity-40 heroGlassBox rounded">
 

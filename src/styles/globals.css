@@ -509,6 +509,7 @@ body {
   animation: mouseScroll .8s cubic-bezier(.7, 0, .3, 1) infinite alternate;
   z-index: 2;
 }
+
 /*
 .controller {
   cursor: url("../assets/yellowCursor.png"), auto;
@@ -760,40 +761,36 @@ body {
       0% 100%);
 }
 
-.imageBg{
+.imageBg {
   background-image: url("../assets/framee.svg");
 }
 
 @media screen and (max-width: 640px) {
   .backgoundpathmobile {
-  clip-path: polygon(
-  0% 0%,
-  31% 0%,
-  33.5% 4%,
-  62.5% 4%,
-  65% 0%,
-  90% 0%,
-  100% 5.33%,
-  100% 100%,
-  0% 100%
-  );
+    background-attachment: fixed;
+    clip-path: polygon(0% 0%,
+        31% 0%,
+        33.5% 4%,
+        62.5% 4%,
+        65% 0%,
+        100% 0%,
+        100% 100%,
+        0% 100%);
   }
+
   .backgoundpathmobile2 {
-  background-color: #43e5f1;
-  clip-path: polygon(
-  0% 0.5%,
-  33% 0.5%,
-  35.5% 4%,
-  60.5% 4%,
-  63% 0.5%,
-  88.8% 0.5%,
-  99.7% 11.33%,
-  99.7% 94.6%,
-  94.8% 100%,
-  0% 100%
-  );
+    background-color: #43e5f1;
+    clip-path: polygon(0% 0.5%,
+        33% 0.5%,
+        35.5% 4%,
+        60.5% 4%,
+        63% 0.5%,
+        100% 0%,
+        99.7% 94.6%,
+        94.8% 100%,
+        0% 100%);
   }
-  }
+}
 
 .backgoundpathFirstDiv {
   background-image: url("../assets/dashboardHero.png");
@@ -842,7 +839,6 @@ body {
 
 
 
-/* end of freeelancer */
 
 .heroDashboardContainer {
   background: rgba(0, 0, 0, 0.1);
@@ -873,7 +869,9 @@ body {
   .heroDashboardContainer {
     height: 23rem !important;
     width: 100%;
-    top: 29px !important;
+    top: 30px !important;
+    padding-left: 0.1rem;
+    padding-right: 0.8rem;
   }
 }
 

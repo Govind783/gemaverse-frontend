@@ -160,21 +160,23 @@ const MegaPrizeIndex = () => {
                                         </div>
                                     </div>
 
-                                    <div className="flex justify-around md:gap-12 mt-6 w-full items-center">
+                                    <div className="flex justify-between md:justify-around md:gap-12 mt-6 w-full items-center">
                                         <div className="flex flex-col">
-                                            <Image src={UserProfile} alt='' quality={100} className='w-24 border-white border-1 border-solid rounded-full' />
+                                            <Image src={UserProfile} alt='' quality={100} className='w-24 border-white border border-solid rounded-full' />
                                             <div className="flex justify-end">
                                                 <AiFillStar className='text-yellow-500 relative -top-4 -left-3' />
                                             </div>
-                                            <p className='uppercase text-white text-lg'>Jenil patel</p>
-                                            <p className='text-gray-500 text-sm'>silver rank</p>
+                                            <div className="flex flex-col items-center">
+                                                <p className='uppercase text-white text-sm md:text-lg'>Jenil patel</p>
+                                                <p className='text-gray-500 text-sm'>silver rank</p>
+                                            </div>
                                         </div>
 
                                         <div className='bg-gray-500 h-32 megaPrizeDivider'></div>
 
                                         <div className='flex flex-col items-center'>
                                             <p className='uppercase text-xl text-gray-500'>RANK</p>
-                                            <p className='text-8xl text-white blackBoxFont'>222</p>
+                                            <p className='md:text-8xl text-7xl text-white blackBoxFont'>222</p>
                                         </div>
                                     </div>
 
