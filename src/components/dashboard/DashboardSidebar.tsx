@@ -24,6 +24,7 @@ import {
 } from '@chakra-ui/react'
 import drawerCloseBtn from "../../assets/drawerCloseBtn.png"
 import { useRouter } from 'next/router'
+import sidebarLogout from "../../assets/sidebarLogout.svg"
 
 
 const DashboardSidebar = () => {
@@ -36,7 +37,7 @@ const DashboardSidebar = () => {
 
     return (
         <div className='flex'>
-            <div className="sideBarHold w-24 hidden md:flex flex-col gap-8 items-center justify-center">
+            <div className="sideBarHold min-h-screen w-24 hidden md:flex flex-col gap-8 items-center justify-center">
                 <div className='relative  flex flex-col gap-8 items-center justify-center'>
                     <div className='expandButtonHold rounded w-10 h-10 flex relative cursor-pointer -top-6 justify-center items-center'>
                         <Image quality={100} src={expandBtn} priority alt='expand' onClick={onOpen} />
@@ -46,9 +47,9 @@ const DashboardSidebar = () => {
                         <Image src={diamondSidebarIconsHold} alt="expand" className="diamondSidebarIconsHold " />
                         <div className="flex flex-col sidebarIconsHold absolute top-1/2 left-1/2 transform items-center gap-3 -translate-x-1/2 -translate-y-1/2">
                             <div className={`${dashboarScreendName === undefined ? "activeTabSidebar" :
-                                    dashboarScreendName === "Megaprize" ? "activeTabSidebar" :
-                                        dashboarScreendName === "Communitychallenge" ? "activeTabSidebar" :
-                                            "inactiveTabSidebar"
+                                dashboarScreendName === "Megaprize" ? "activeTabSidebar" :
+                                    dashboarScreendName === "Communitychallenge" ? "activeTabSidebar" :
+                                        "inactiveTabSidebar"
                                 } flex justify-center items-center w-12 h-12 sidebarIndivitualIcon`}>
                                 <Link href={"/dashboard"}>
                                     <MdDashboard className='text-lg cursor-pointer' onClick={() => setTabState("dashboard")} />
@@ -113,7 +114,7 @@ const DashboardSidebar = () => {
                             </DrawerHeader>
                             <DrawerBody>
                                 <div>
-                                    <div className="flex flex-col md:gap-8 gap-7 mt-8 items-start">
+                                    <div className="flex flex-col md:gap-8 gap-7 mt-3 items-start">
 
                                         <div className="flex gap-6 items-center">
                                             <div className={`${dashboarScreendName === undefined ? "activeTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon" : "inactiveTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon"}`}>
@@ -181,6 +182,11 @@ const DashboardSidebar = () => {
                                             <p className={`${dashboarScreendName === "Settings" ? "text-white interFont md:text-lg lg:text-xl drawerText text-sm" : "sidebarText drawerText md:text-lg lg:text-xl text-sm interFont"}`}>Settings</p>
                                         </div>
 
+                                        <div className="flex items-center gap-4">
+                                            <Image src={sidebarLogout} alt='' quality={100} />
+                                            <p className='text-white text-sm font-light md:text-xl interFont drawerText'>Logout</p>
+                                        </div>
+
                                     </div>
                                 </div>
                             </DrawerBody>
@@ -210,7 +216,7 @@ const DashboardSidebar = () => {
                             </DrawerHeader>
                             <DrawerBody>
                                 <div>
-                                    <div className="flex flex-col md:gap-8 gap-7 mt-8 items-start">
+                                    <div className="flex flex-col md:gap-8 gap-7 mt-3 items-start">
 
                                         <div className="flex gap-6 items-center">
                                             <div className={`${dashboarScreendName === undefined ? "activeTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon" : "inactiveTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon"}`}>
@@ -293,6 +299,12 @@ const DashboardSidebar = () => {
                                             </Link>
                                         </div>
 
+                                     
+                                        <div className="flex items-center gap-4 relative left-1">
+                                            <Image src={sidebarLogout} alt='' quality={100} />
+                                            <p className='text-white text-sm font-light md:text-xl interFont drawerText'>Logout</p>
+                                        </div>
+                                        <br />
                                     </div>
                                 </div>
                             </DrawerBody>
