@@ -88,6 +88,8 @@ Settings page =>
 And yes currently all the data is static and hardcoded as the client only wanted the frontend UI and neither will google-o-auth nor will login with riot id or discord work
 
 
+DO STAR THE REPO🌟
+
 
 
 
