@@ -6,7 +6,7 @@ const PremiumIndex = () => {
   return (
     <div>
 
-      <div className="flex relative -left-1 md:-left-0  justify-evenly items-center gap-16 lg:gap-0 mb-12 mt-16 lg:mt-0 lg:mb-0 flex-wrap-reverse">
+      <div className="flex relative -left-1 md:-left-0  justify-evenly items-center gap-[7.5rem] lg:gap-0 mb-12 mt-16 lg:mt-0 lg:mb-0 flex-wrap-reverse">
 
 
         {  /* box 1 */}

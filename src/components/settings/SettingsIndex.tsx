@@ -11,10 +11,10 @@ const SettingsIndex = () => {
 
     const [userName, setUserName] = useState('');
     const [email, setEmail] = useState('');
-    const [phoneNumber, setPhoneNumber] = useState(0);
+    const [phoneNumber, setPhoneNumber] = useState("");
 
     return (
-        <div className='text-white'>
+        <div className='text-white relative left-2'>
             <div className="flex items-start md:ml-4 lg:ml-0 relative top-24 gap-20 md:gap-0 md:top-0 flex-wrap justify-evenly">
 
                 <div className="flex flex-col lg:w-[45%] w-full">
@@ -40,7 +40,7 @@ const SettingsIndex = () => {
                             <p className=' uppercase text-lg tracking-[0.17em]'>Email</p>
                         </div>
 
-                        <input type={"email"} className='md:w-[60%] w-[85%] bg-transparent border-0 outline-none placeholder-[#4E4E4E]  border-b-2 pb-2' placeholder='abcde@gmail.com' value={userName} onChange={(e: React.ChangeEvent<HTMLInputElement>) =>  setEmail(e.target.value)}  />
+                        <input type={"email"} className='md:w-[60%] w-[85%] bg-transparent border-0 outline-none placeholder-[#4E4E4E]  border-b-2 pb-2' placeholder='abcde@gmail.com' value={email} onChange={(e: React.ChangeEvent<HTMLInputElement>) =>  setEmail(e.target.value)}  />
                     </div>
 
                     <br />
@@ -57,7 +57,7 @@ const SettingsIndex = () => {
                             <HiPencil className='text-2xl text-white' />
                         </div>
 
-                        <input  type="tel" name="telphone" pattern="[0-9]{3} [0-9]{3} [0-9]{4}" maxLength={12} className='md:w-[60%] w-[85%] bg-transparent border-0 outline-none placeholder-[#4E4E4E]  border-b-2 pb-2' placeholder='+91 8989898989' />
+                        <input  type="tel" name="telphone" pattern="[0-9]{3} [0-9]{3} [0-9]{4}" maxLength={12} className='md:w-[60%] w-[85%] bg-transparent border-0 outline-none placeholder-[#4E4E4E]  border-b-2 pb-2' value={phoneNumber} onChange={(e: any) =>  setPhoneNumber(e.target.value)} placeholder='+91 8989898989' />
                     </div>
 
                     <br />
@@ -115,6 +115,8 @@ const SettingsIndex = () => {
                     <br />
                 </div>
             </div>
+            <br />
+            <br />
             <br />
             <br />
         </div>
