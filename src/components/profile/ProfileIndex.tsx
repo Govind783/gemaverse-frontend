@@ -7,7 +7,7 @@ import chartImage from "../../assets/profileChartLine.svg"
 import { IoChevronBackOutline } from "react-icons/io5";
 import Link from 'next/link'
 import { IoChevronForwardOutline } from "react-icons/io5";
-import Chart from 'chart.js/auto';
+import Chart, { ChartDataset } from 'chart.js/auto';
 import { useEffect, useRef } from 'react';
 
 
@@ -23,7 +23,6 @@ type challendDataType = {
 interface ChartCanvas extends HTMLCanvasElement {
     chart?: any;
 }
-
 
 
 
@@ -138,16 +137,13 @@ const ProfileIndex = () => {
 
     const canvasRef = useRef(null);
 
-
     useEffect(() => {
         if (canvasRef.current) {
             const canvas = canvasRef.current as ChartCanvas;
             if (canvas.chart) {
                 canvas.chart.destroy();
             }
-
             const ctx = canvas.getContext('2d')!;
-
             const gradient = ctx.createLinearGradient(0, 0, 0, 400);
             gradient.addColorStop(0, '#D3EBF7');
             gradient.addColorStop(0.4392, '#34B3F1');
@@ -159,20 +155,20 @@ const ProfileIndex = () => {
             canvas.chart = new Chart(ctx, {
                 type: 'line',
                 data: {
-                    labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', "eight", "nine", "ten", "eleven", "twelve"],
+                    labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', "eight"],
                     datasets: [{
                         label: '',
-                        data: [80, 20, 80, 40, 60, 20, 70, 25, 20, 45, 80, 65], //15
+                        data: [80, 20, 80, 40, 60, 20, 70, 25],
                         borderColor: gradient,
                         borderWidth: 3.3,
                         tension: 0.4,
                         borderCapStyle: 'round',
                         borderJoinStyle: 'round',
                         pointRadius: 3,
-                        pointBackgroundColor: gradient // set pointBackgroundColor
+                        pointBackgroundColor: gradient,
+                        pointHitRadius: 10
                     }]
                 },
-
                 options: {
                     scales: {
                         y: {
@@ -191,10 +187,8 @@ const ProfileIndex = () => {
                         legend: {
                             display: false
                         }
-                    },
-
+                    }
                 },
-
             });
         }
     }, []);
@@ -331,7 +325,7 @@ const ProfileIndex = () => {
                                             </div>
                                         </div>
 
-                                        <div className="w-[45.4rem] left-4 h-[18rem] relative z-10">
+                                        <div className="md:w-[45.4rem] w-[20rem] -left-3 top-8 md:-top-1 lg:-top-3 md:left-4 h-[18rem] relative z-10">
                                             <canvas ref={canvasRef} className='profileChart' />
                                         </div>
 
@@ -382,7 +376,7 @@ const ProfileIndex = () => {
                     {/*  parent two shape two */}
                     <div className='w-[47rem] h-[24rem]'>
                         <div className="max-h-[500px] max-w-[1220px] flex items-center justify-center relative">
-                            <div className="z-30 text-white md:-top-[5%] -top-[4%] left-[35%] sm:left-[14.5%]  absolute">
+                            <div className="z-30 text-white md:-top-[5%] -top-[4%] left-[31.7%] sm:left-[14.5%]  absolute">
                                 <h1 className="lg:text-lg sm:text-lg text-base font-normal text-[#A3C7D7]">
                                     TOTAL TOKENS
                                 </h1>

@@ -236,6 +236,13 @@ body {
 }
 
 
+@media(max-width:600px) {
+  .homepageNavbarLOginButton {
+    --border-width: .05em !important;
+    width: 11rem;
+    height: 2.9rem;
+  }
+}
 
 
 .homepageNavbarLOginButton {
@@ -273,7 +280,7 @@ body {
 
 @media(max-width:600px) {
   .homepageNavbarLOginButton {
-    font-size: 15px;
+    font-size: 14px;
   }
 }
 
@@ -766,7 +773,7 @@ body {
 }
 
 @media screen and (max-width: 640px) {
-  
+
   .backgoundpathmobile {
     background-position: 5% 50%;
     clip-path: polygon(0% 0%,
