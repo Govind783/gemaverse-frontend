@@ -1,11 +1,11 @@
 
 Built the entire frontend of a gaming platform for a freelance client. Currently the data is hardcoded and static. The frontend link is deployed on vercel and attached. 
 
-The project comprises of the landing page and upoon singning up with google the user is redirected to the dashboard. 
+The project comprises of the landing page and upon singning up with google the user is redirected to the dashboard. 
 
 ## PAGES 
 - Landing page
-- homepage (accessible after signing up with google)
+- dashboard homepage (accessible after signing up with google)
 - Inventory page
 - Marketplace page
 - Premium Page
@@ -85,7 +85,8 @@ Settings page =>
 ![Homepage](https://live.staticflickr.com/65535/52884256050_e0d3db92ee_z.jpg)
 
 
-And yes currently all the data is static and hardcoded as the client only wanted the frontend UI and neither will google-o-auth nor will login with riot id or discord work
+And yes currently all the data is static and hardcoded. the backend is still being worked upon and after completion and connecting the backend the whole platform will be live on the clients domain 
+by the first week of june
 
 
 DO STAR THE REPO🌟
