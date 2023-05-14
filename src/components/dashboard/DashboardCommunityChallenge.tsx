@@ -99,6 +99,7 @@ const DashboardCommunityChallenge = () => {
             completionStatus: "health", // if health then green color border else red
             color: 'green'
         },
+        
 
     ]
 
@@ -156,7 +157,7 @@ const DashboardCommunityChallenge = () => {
             <div className="">
                 <div className='w-9 sidebarSideLine relative -top-7 hidden md:block -ml-1'></div>
 
-                <div className="soloChallengesHold flex flex-wrap gap-16 justify-center">
+                <div className="soloChallengesHold challengeDimensions ">
                     {communityChallengeDataArr.map((item) => {
                         return (
                             <div className={`${item.completionStatus === "ongoing" ? "communityChallengeIndivitual overflow-hidden" : " overflow-hidden communityGreenBorder"}`} key={item.id} >
@@ -322,3 +323,56 @@ const DashboardCommunityChallenge = () => {
 export default DashboardCommunityChallenge
 //  <p className={`${item.completionStatus === "ongoing" ? "rounded-full w-24 h-7 bg-black text-white border-white border flex justify-center items-center text-xs uppercase font-semibold " : " uppercase font-semibold rounded-full w-24 h-7 bg-green-400 flex justify-center items-center text-xs"}`}>{item.completionStatus}</p>
 //  <Link href={"/dashboard/Communitychallenge"}>
+
+/* 
+
+
+            <div className="">
+                <div className='w-9 sidebarSideLine relative -top-7 hidden md:block -ml-1'></div>
+
+                <div className="soloChallengesHold flex flex-wrap gap-16 justify-center">
+                    {communityChallengeDataArr.map((item) => {
+                        return (
+                            <div className={`${item.completionStatus === "ongoing" ? "communityChallengeIndivitual overflow-hidden" : " overflow-hidden communityGreenBorder"}`} key={item.id} >
+
+                                <div className="flex gap-4 items-center mt-4 justify-around pr-2">
+                                    <Image src={item.challengeImage} alt='' quality={100} className='' />
+                                    <div className="flex items-center gap-3">
+                                        {item.timeLeft && <p className='text-gray-300 font-light whitespace-nowrap'>Ends in :</p>}
+                                        <p className='text-red-500 font-semibold'> {item.timeLeft} </p>
+                                    </div>
+                                    <p className={`${item.completionStatus === "ongoing" ? "rounded-full w-24 h-7 bg-blue-400 flex justify-center items-center text-xs uppercase font-semibold " : " uppercase font-semibold rounded-full w-24 h-7 bg-green-400 flex justify-center items-center text-xs"}`}>{item.completionStatus}</p>
+                                </div>
+
+                                <br />
+                                {item.timeLeft ? <br /> : <p className='mt-3'></p>}
+                                <div className="flex justify-around">
+                                    <div className="flex flex-col gap-3">
+                                        <p className=' uppercase text-white text-lg'> {item.title} </p>
+                                        <p className='text-white uppercase text-xs'> {item.subTitle} </p>
+                                    </div>
+
+                                    <div className="flex flex-col gap-2 items-center pr-2">
+                                        <p className='text-xs greenText capitalize'>win prize</p>
+                                        <div className="flex items-center gap-2">
+                                            <Image src={tokens} alt='' quality={100} />
+                                            <p className='text-white text-xs'> {item.coins} </p>
+                                        </div>
+
+                                        {item.completionStatus === "ongoing" ? <button className='text-white dashBoardHeroBtn uppercase h-9 w-28' onClick={openFirstModal}>join</button> : <button className='text-white dashBoardHeroBtn uppercase h-9 w-28' onClick={openFirstModal}>join</button>}
+                                    </div>
+                                </div>
+
+                                <div className="flex justify-end">
+                                    <p className={`${item.completionStatus === "ongoing" ? "redGradient rounded-full w-12 h-12 relative left-4" : "greenGradient rounded-full w-12 h-12 relative left-4"}`}></p>
+                                </div>
+                                <div className='flex justify-end'>
+                                    {item.color === "green" ? <Image src={greenTRI2} alt='' quality={100} className=' communityChallengeGreenTriangle' /> : <Image src={redTri} alt='' quality={100} className='communityChallengeTriangle' />}
+                                </div>
+                            </div>
+                        )
+                    })}
+                </div>
+
+            </div>
+*/

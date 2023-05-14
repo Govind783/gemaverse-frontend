@@ -907,8 +907,8 @@ body {
 
 }
 
-@media(min-width:1800px){
-  .dashboardDividerLine{
+@media(min-width:1800px) {
+  .dashboardDividerLine {
     height: 0.08rem;
   }
 }
@@ -1123,6 +1123,23 @@ body {
       101.08% 94.86%,
       99.78% 101%,
       0% 101%);
+}
+
+/*  GRID CHANGES  */
+.challengeDimensions {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(22.7rem, 1fr)) !important;
+  /*  
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+
+  */
+  row-gap: 3rem;
+  justify-items: center;
+  justify-content: center;
+  width: 89%;
+  column-gap: 0.5rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -1358,16 +1375,16 @@ body {
 
 .ThirdShapecss2Iphone {
   clip-path: polygon(2% 0%,
-  36% 0%,
-  38% 5.8%,
-  63% 5.8%,
-  65% 0%,
-  99% -9%,
-  102% 8%,
-  106% 98.7%,
-  97.7% 99.4%,
-  0% 99.6%,
-  0% 5%);
+      36% 0%,
+      38% 5.8%,
+      63% 5.8%,
+      65% 0%,
+      99% -9%,
+      102% 8%,
+      106% 98.7%,
+      97.7% 99.4%,
+      0% 99.6%,
+      0% 5%);
 
   background: #43E5F1;
 
@@ -1398,14 +1415,14 @@ body {
 
 .SecondShapecss2 {
   clip-path: polygon(2% 0%,
-  31% 0%,
-  33% 6%,
-  66% 6%,
-  68% 0%,
-  100% 0%,
-  100% 100%,
-  0% 100%,
-  0% 4%);
+      31% 0%,
+      33% 6%,
+      66% 6%,
+      68% 0%,
+      100% 0%,
+      100% 100%,
+      0% 100%,
+      0% 4%);
 
   background: #43E5F1;
 
@@ -1440,15 +1457,15 @@ body {
 @media(max-width:620px) {
   .megaprizeOuterBox1 {
     clip-path: polygon(2.77% 0%,
-    28% 0%,
-    31.07% 5.45%,
-    64.78% 5.45%,
-    67.51% 0%,
-    100% 0%,
-    100% 94.73%,
-    95% 100%,
-    0% 100%,
-    0% 4.25%) !important;
+        28% 0%,
+        31.07% 5.45%,
+        64.78% 5.45%,
+        67.51% 0%,
+        100% 0%,
+        100% 94.73%,
+        95% 100%,
+        0% 100%,
+        0% 4.25%) !important;
   }
 }
 
@@ -1499,16 +1516,16 @@ body {
 
 .MeagPrizeBoxInnder2 {
   clip-path: polygon(2% 0%,
-  35% 0%,
-  37% 6%,
-  64% 6%,
-  66% 0%,
-  97% -11%,
-  103% 8%,
-  109% 97.7%,
-  97.7% 99.4%,
-  0% 99.6%,
-  0% 5%);
+      35% 0%,
+      37% 6%,
+      64% 6%,
+      66% 0%,
+      97% -11%,
+      103% 8%,
+      109% 97.7%,
+      97.7% 99.4%,
+      0% 99.6%,
+      0% 5%);
   height: fit-content !important;
   min-height: 16rem;
 }
@@ -1516,15 +1533,15 @@ body {
 @media(max-width:600px) {
   .MeagPrizeBoxInnder {
     clip-path: polygon(2.77% 0%,
-    26% 0%,
-    29.07% 5.45%,
-    66.78% 5.45%,
-    69.51% 0%,
-    100% 0%,
-    100% 94.73%,
-    95% 100%,
-    0% 100%,
-    0% 4.25%) !important;
+        26% 0%,
+        29.07% 5.45%,
+        66.78% 5.45%,
+        69.51% 0%,
+        100% 0%,
+        100% 94.73%,
+        95% 100%,
+        0% 100%,
+        0% 4.25%) !important;
   }
 
   .MeagPrizeBoxInnder2 {
@@ -2024,6 +2041,18 @@ body {
   width: 25rem;
 }
 
+/*  GRID CHANGES */
+.marketPlaceOffersContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(22.7rem, 1fr));
+  row-gap: 3rem;
+  justify-items: center;
+  justify-content: center;
+  width: 90%;
+  column-gap: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 .imageContainer img {
@@ -2422,6 +2451,21 @@ body {
 .InventoryCardBtnsHold:where(:hover, :focus) {
   color: #fff;
 }
+
+/*  GRID CHANGES */
+
+.inventoryOffersHold {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(22.7rem, 1fr));
+  row-gap: 3rem;
+  justify-items: center;
+  justify-content: center;
+  width: 90%;
+  column-gap: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 /*  INVENTORY END   */
 

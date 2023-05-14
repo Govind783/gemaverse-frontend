@@ -69,6 +69,24 @@ const MarketplaceIndex = () => {
             premiumprice:2500,
             regularPrice:1450,
         },
+
+        {
+            id: 7,
+            title: "title",
+            subTitle: "Amet minim mollit non deserunt ullamcoest sit aliqua dolor do",
+            image: marketPlace1,
+            premiumprice:2500,
+            regularPrice:1450,
+        },
+        {
+            id: 8,
+            title: "title",
+            subTitle: "Amet minim mollit non deserunt ullamcoest sit aliqua dolor do",
+            image: marketPlace1,
+            premiumprice:2500,
+            regularPrice:1450,
+        },
+        
     ]
 
     return (
@@ -155,7 +173,7 @@ const MarketplaceIndex = () => {
             <br />
             <br />
 
-            <div className="flex justify-center gap-16 flex-wrap">
+            <div className="flex justify-center gap-16 flex-wrap marketPlaceOffersContainer">
                 {offersDataARR.map((item) => {
                     return (
                         <div key={item.id} className='rgba'>

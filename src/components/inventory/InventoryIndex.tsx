@@ -75,7 +75,7 @@ const InventoryIndex = () => {
   return (
     <div className='text-white'>
 
-      <div className="flex justify-center gap-16 flex-wrap mt-16 md:mt-2">
+      <div className="inventoryOffersHold mt-16 md:mt-2">
         {offersDataARR.map((item) => {
           return (
             <div key={item.id}>
