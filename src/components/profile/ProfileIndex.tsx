@@ -417,7 +417,7 @@ const ProfileIndex = () => {
 
                     <div className='w-[35.5rem] h-[22rem]'>
                         <div className="max-h-[500px] max-w-[1220px] flex items-center justify-center relative">
-                            <div className="z-30 text-white md:-top-[2%] -top-[3.5%] left-[29.4%] sm:left-[14.8%]  absolute">
+                            <div className="z-30 text-white md:-top-[3%] -top-[3.5%] left-[29.4%] sm:left-[14.8%]  absolute">
                                 <h1 className="lg:text-lg sm:text-lg text-sm font-normal text-[#A3C7D7]">
                                     CHALLENGE HISTORY
                                 </h1>
@@ -455,7 +455,7 @@ const ProfileIndex = () => {
 
                     <div className='w-[35.5rem] h-[22rem]'>
                         <div className="max-h-[500px] max-w-[1220px] flex items-center justify-center relative">
-                            <div className="z-30 text-white md:-top-[2%] -top-[3.5%] left-[34.4%] sm:left-[16.8%]  absolute">
+                            <div className="z-30 text-white md:-top-[3%] -top-[3.5%] left-[34.4%] sm:left-[16.8%]  absolute">
                                 <h1 className="lg:text-xl sm:text-lg text-sm font-normal text-[#A3C7D7]">
                                     MATCH HISTORY
                                 </h1>
