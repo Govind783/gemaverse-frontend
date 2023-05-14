@@ -42,7 +42,7 @@ const DashboardSidebar = () => {
                     <div className='expandButtonHold rounded w-10 h-10 flex relative cursor-pointer -top-6 justify-center items-center'>
                         <Image quality={100} src={expandBtn} priority alt='expand' onClick={onOpen} />
                     </div>
-
+                    { /* sidebar non-expanded */}
                     <div className="relative mt-4 -top-5">
                         <Image src={diamondSidebarIconsHold} alt="expand" className="diamondSidebarIconsHold " />
                         <div className="flex flex-col sidebarIconsHold absolute top-1/2 left-1/2 transform items-center gap-3 -translate-x-1/2 -translate-y-1/2">
@@ -218,9 +218,13 @@ const DashboardSidebar = () => {
                                     <Image quality={100} priority src={drawerCloseBtn} alt='expand' onClick={onClose} className='cursor-pointer' />
                                 </div>
                             </DrawerHeader>
+                            { /*  drawer mobile as well as big screens */}
                             <DrawerBody>
                                 <div>
                                     <div className="flex flex-col md:gap-8 gap-7 mt-3 items-start">
+                                        { /* 
+                                            <div className="flex flex-col justify-evenly h-screen -mt-6  items-start">
+                                        */ }
 
                                         <div className="flex gap-6 items-center">
                                             <Link href={"/dashboard"}>
@@ -277,7 +281,7 @@ const DashboardSidebar = () => {
                                                     <AiOutlineBarChart className='text-xl cursor-pointer' />
                                                 </div>
                                             </Link>
-                                            
+
                                             <Link href={"/dashboard/Stats"}>
                                                 <p className={`${dashboarScreendName === "Stats" ? "text-white interFont md:text-lg lg:text-xl drawerText text-sm" : "sidebarText drawerText md:text-lg lg:text-xl text-sm interFont"}`}>Stats</p>
                                             </Link>

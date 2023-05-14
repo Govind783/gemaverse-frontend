@@ -8,9 +8,15 @@ const DashboardHome = () => {
     return (
         <div>
             <div>
-                <div className="md:w-[17rem] w-[14rem] left-[4.5rem] h-14 md:h-[2.8%] md:left-52 lg:left-[33rem] bg-[#0B111F] premiumBox3 absolute top-[6.5rem] md:top-[7.5rem]">
+                <div className="w-full flex justify-center">
+                    <div className="md:w-[17rem] w-[14rem] left-[-0.1rem] h-14 md:h-[2.8rem] md:-left-12  bg-[#0B111F] premiumBox3 relative top-[3rem] md:top-[4.5rem]">
+                    </div>
                 </div>
-                <p className=' left-4 top-[-0.1rem] md:top-8 text-[11px]  md:text-base text-[#ffffff] md:-left-3 lg:left-1 text-center w-[93%] tracking-widest relative '>MEGA CHALLENGE</p>
+
+                <div className="w-full justify-center flex">
+                <p className=' top-[0rem] md:top-9 text-[11px]  md:text-base text-[#ffffff] -left-[0.1rem] md:-left-11 lg:-left-11 text-center w-[93%] tracking-widest relative '>MEGA CHALLENGE</p>
+
+                </div>
             </div>
             <div className="DashboardHeroComponentMainParent relative left-[0.2rem] md:left-0 flex justify-center md:mt-8 ">
 
@@ -18,19 +24,19 @@ const DashboardHome = () => {
                 <div className="xl:w-[1266px] lg:w-[1100px] md:w-[900px] sm:w-[640px sm:h-[280px] h-[400px] border-[1px] backgoundpathmobile2 sm:border-0 border-[#43E5F1]">
                     <div className="xl:w-[1266px] lg:w-[1100px] md:w-[900px] sm:w-[640px] w-[400px] sm:h-[280px] h-[400px] backgoundpathfirst bg-cover sm:bg-center bg-no-repeat flex imageBg backgoundpathmobile justify-start items-start ">
 
-                        {<div className="heroDashboardContainer pb-10 relative top-12 md:ml-8 bg-black bg-opacity-40 heroGlassBox rounded">
+                        {<div className="heroDashboardContainer md:mt-8 lg:mt-0 pb-10 relative top-12 md:ml-8 bg-black bg-opacity-40 heroGlassBox rounded">
 
                             <div className="flex flex-col gap-4 md:ml-5 ml-2 pt-2 pb-6 rounded-md ">
                                 <p className='text-gray-400 -mb-7'>PLay and earn</p>
                                 <p className='blackBoxFont text-white text-7xl'>Mega prize</p>
-                                <p className='text-gray-400 -mt-5 montestratFont'>
-                                    Join the ultimate gaming event, compete for the Mega Prize! Score points <br />
+                                <p className='text-gray-400 mt-[-0.2rem] md:-mt-5 montestratFont lg:w-1/2 md:w-[79%]'>
+                                    Join the ultimate gaming event, compete for the Mega Prize! Score points
                                     based on your in-game performance, climb the leaderboard, and win.
                                 </p>
 
                                 <div className="flex gap-9 items-center ">
                                     <Link href={"/dashboard/Megaprize"}>
-                                        <button className='text-white w-28 h-8 montestratFont text-sm md:text-base dashBoardHeroBtn'>REGISTER</button>
+                                        <button className='text-white w-28 h-9 montestratFont text-sm md:text-base lg:w-[7.5rem] lg:h-9 dashBoardHeroBtn'>REGISTER</button>
                                     </Link>
 
                                     <div className="flex flex-col text-white items-start w-16 ml-1 md:w-auto md:ml-0">

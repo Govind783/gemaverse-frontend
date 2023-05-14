@@ -3,8 +3,10 @@ import Image from 'next/image'
 import discord from "../../assets/discorLoginDashboard.svg"
 import riotId from "../../assets/riotDashboardLogin.svg"
 import { Tooltip } from '@chakra-ui/react'
-
+import Link from 'next/link'
 const DashboardNavbar = () => {
+    // to get the First letter of the the user's name after login you can use "chartAt[0] to get the first letter and then replace it with ".k"
+    
     return (
         <div>
             <div className='w-full'>
@@ -16,12 +18,15 @@ const DashboardNavbar = () => {
                             <p className='userProfileLine w-1'></p>
                         </div>
 
-                        <div className="flex items-center gap-4">
-                            <p className=' uppercase font-semibold text-white text-sm'>Sandeep.k</p>
-                            <div>
-                                <img src={"https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXZhdGFyfGVufDB8fDB8fA%3D%3D&w=1000&q=80"} className='w-10 h-10 rounded-full object-cover' alt='' />
+                        <Link href={"/dashboard/Profile"}>
+                            <div className="flex items-center gap-4">
+                                <p className=' uppercase font-semibold text-white text-sm'>Sandeep.k</p>
+                                <div>
+                                    <img src={"https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXZhdGFyfGVufDB8fDB8fA%3D%3D&w=1000&q=80"} className='w-10 h-10 rounded-full object-cover' alt='' />
+                                </div>
                             </div>
-                        </div>
+                        </Link>
+
                     </div>
                 </div>
 

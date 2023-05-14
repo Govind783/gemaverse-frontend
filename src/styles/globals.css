@@ -907,6 +907,12 @@ body {
 
 }
 
+@media(min-width:1800px){
+  .dashboardDividerLine{
+    height: 0.08rem;
+  }
+}
+
 .w80percent {
   width: 85%;
 }
@@ -4444,7 +4450,7 @@ svg {
 .uploadModal {
   width: 42rem !important;
   height: 38em;
-  top: -0.1rem !important;
+  top: 1.5rem !important;
 }
 
 .unlockModal1 {

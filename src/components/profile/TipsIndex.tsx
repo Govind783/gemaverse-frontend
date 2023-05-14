@@ -455,7 +455,7 @@ const TipsIndex = () => {
                                     <div className="w-[50rem]   bg-[#000000]   allRoundsShape1">
                                         <br />
 
-                                        <div className="flex justify-evenly  flex-wrap items-center pt-6 gap-x-1 gap-y-1">
+                                        <div className="flex justify-evenly  flex-wrap items-center pt-6 gap-x-1 lg:gap-x-5 gap-y-1">
 
                                             {allRoundArr.map((item) => {
                                                 return (
