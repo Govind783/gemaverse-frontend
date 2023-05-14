@@ -36,6 +36,8 @@ const CommunityChallengeIndex = () => {
             title: "get 5 kills with vandal using jett", //  vandal (uppercase) rest all capitalize
             points: 5000,
         },
+    
+
 
     ]
 
@@ -163,7 +165,7 @@ const CommunityChallengeIndex = () => {
 
                                 <div className="flex justify-around md:gap-12 mt-6 w-full items-center">
                                     <div className="flex flex-col">
-                                        <Image src={UserProfile} alt='' quality={100} className='w-24 border-white border-1 border-solid rounded-full' />
+                                        <Image src={UserProfile} alt='' quality={100} className='w-24 border-white border border-solid rounded-full' />
                                         <div className="flex justify-end">
                                             <AiFillStar className='text-yellow-500 relative -top-4 -left-3' />
                                         </div>
@@ -191,7 +193,7 @@ const CommunityChallengeIndex = () => {
                         <div className="lg:h-[3rem] md:h-[2.99rem] bg-[#0B111F] premiumBox3 relative top-[4rem] md:top-[3.7rem] w-[72%] left-[0.5rem] md:left-4 h-12 md:w-[56%] lg:w-[48%] ">
                         </div>
                     </div>
-                    <p className='text-[#A3C7D7] text-xs md:-left-1 md:text-base relative top-5 text-center'>COMMUNITY CHALLENGE</p>
+                    <p className='text-[#A3C7D7] text-[10px] top-4 md:-left-1 md:text-base relative md:top-5 text-center'>COMMUNITY CHALLENGE</p>
                     {/* second shape */}
                     <div className="w-[38rem] h-[15.1rem] border-[#43E5F1] border-[1px] bg-[#43E5F1] SecondShapecss2 my-5 ">
                         <div className="w-[38rem] h-[15rem] border-[#43E5F1]  bg-[#000000] SecondShapecss">
@@ -204,10 +206,11 @@ const CommunityChallengeIndex = () => {
 
                                     </p>
                                     <br />
-                                    <p className='w-[89%] mx-auto'>
+                                    <p className='w-[89%] mx-auto pb-5'>
                                         Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
                                         Velit officia consequat duis enim velit mollit.
                                     </p>
+                               
                                 </div>
                             </div>
                         </div>
@@ -243,7 +246,6 @@ const CommunityChallengeIndex = () => {
 
                     </div>
                 </div>
-                <br />
             </div>
 
 

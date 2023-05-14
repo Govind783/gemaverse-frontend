@@ -434,7 +434,7 @@ const TipsIndex = () => {
                                             <div className="lg:h-[3.1rem] md:h-[3.1rem] bg-[#0B111F] premiumBox3 relative top-[7.9rem] md:top-[3.2rem] w-[91%] left-[0.6rem] md:-left-0 h-16 md:w-[37%] lg:w-[80%] ">
                                             </div>
                                         </div>
-                                        <p className='relative top-1 left-[4.8rem] md:left-[3.6rem] md:text-[12px] lg:text-[14px] lg:left-20 text-sm'>YOUR PERFORMANCE</p>
+                                        <p className='relative top-1 left-[4.99rem] md:left-[3.6rem] md:text-[12px] lg:text-[14px] lg:left-20 text-sm'>YOUR PERFORMANCE</p>
                                         <div className="w-[16rem] h-[19rem] flex items-center justify-center  tipsP1Box1 flex-col gap-4 bg-[#43E5F1] border-[#43E5F1]   sm:border-1 border-[1px]">
 
                                             <div className='bg-[#000000] opacity-[99]  tipsP1Box1b w-full  h-full'>

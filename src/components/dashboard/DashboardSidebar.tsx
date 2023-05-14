@@ -46,36 +46,39 @@ const DashboardSidebar = () => {
                     <div className="relative mt-4 -top-5">
                         <Image src={diamondSidebarIconsHold} alt="expand" className="diamondSidebarIconsHold " />
                         <div className="flex flex-col sidebarIconsHold absolute top-1/2 left-1/2 transform items-center gap-3 -translate-x-1/2 -translate-y-1/2">
-                            <div className={`${dashboarScreendName === undefined ? "activeTabSidebar" :
-                                dashboarScreendName === "Megaprize" ? "activeTabSidebar" :
-                                    dashboarScreendName === "Communitychallenge" ? "activeTabSidebar" :
-                                        "inactiveTabSidebar"
-                                } flex justify-center items-center w-12 h-12 sidebarIndivitualIcon`}>
-                                <Link href={"/dashboard"}>
+                            <Link href={"/dashboard"}>
+                                <div className={`${dashboarScreendName === undefined ? "activeTabSidebar" :
+                                    dashboarScreendName === "Megaprize" ? "activeTabSidebar" :
+                                        dashboarScreendName === "Communitychallenge" ? "activeTabSidebar" :
+                                            "inactiveTabSidebar"
+                                    } flex justify-center items-center w-12 h-12 sidebarIndivitualIcon`}>
                                     <MdDashboard className='text-lg cursor-pointer' onClick={() => setTabState("dashboard")} />
-                                </Link>
-                            </div>
+                                </div>
+                            </Link>
 
-                            <div className={`${dashboarScreendName === "Marketplace" ? "activeTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon" : "inactiveTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon"}`}>
-                                <Link href={"/dashboard/Marketplace"}>
+                            <Link href={"/dashboard/Marketplace"}>
+                                <div className={`${dashboarScreendName === "Marketplace" ? "activeTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon" : "inactiveTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon"}`}>
                                     <IoBagHandleOutline className='text-lg cursor-pointer font-bold' />
-                                </Link>
-                            </div>
-                            <div className={`${dashboarScreendName === "Inventory" ? "activeTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon" : "inactiveTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon"}`} >
-                                <Link href={"/dashboard/Inventory"}>
+                                </div>
+                            </Link>
+
+                            <Link href={"/dashboard/Inventory"}>
+                                <div className={`${dashboarScreendName === "Inventory" ? "activeTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon" : "inactiveTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon"}`} >
                                     <MdInventory className='text-lg cursor-pointer' />
-                                </Link>
-                            </div>
-                            <div className={`${dashboarScreendName === "Premium" ? "activeTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon" : "inactiveTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon"}`}>
-                                <Link href={"/dashboard/Premium"}>
+                                </div>
+                            </Link>
+
+                            <Link href={"/dashboard/Premium"}>
+                                <div className={`${dashboarScreendName === "Premium" ? "activeTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon" : "inactiveTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon"}`}>
                                     <MdWorkspacePremium className='text-lg cursor-pointer' />
-                                </Link>
-                            </div>
-                            <div className={`${dashboarScreendName === "Stats" ? "activeTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon" : "inactiveTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon"}`}>
-                                <Link href={"/dashboard/Stats"}>
+                                </div>
+                            </Link>
+
+                            <Link href={"/dashboard/Stats"}>
+                                <div className={`${dashboarScreendName === "Stats" ? "activeTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon" : "inactiveTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon"}`}>
                                     <AiOutlineBarChart className='text-xl cursor-pointer' />
-                                </Link>
-                            </div>
+                                </div>
+                            </Link>
                         </div>
                     </div>
 
@@ -83,16 +86,17 @@ const DashboardSidebar = () => {
                         <Image src={dashboardSidebarDiamond2} alt="expand" className=" h-28" />
                         <div className="flex flex-col sidebarIconsHold absolute top-1/2 left-1/2 transform items-center gap-3 -translate-x-1/2 -translate-y-1/2">
 
-                            <div className={`${dashboarScreendName === "Profile" ? "activeTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon" : "inactiveTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon"}`}>
-                                <Link href={"/dashboard/Profile"}>
+                            <Link href={"/dashboard/Profile"}>
+                                <div className={`${dashboarScreendName === "Profile" ? "activeTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon" : "inactiveTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon"}`}>
                                     <BiUserCircle className='text-2xl cursor-pointer' />
-                                </Link>
-                            </div>
-                            <div className={`${dashboarScreendName === "Settings" ? "activeTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon" : "inactiveTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon"}`} >
-                                <Link href={"/dashboard/Settings"}>
+                                </div>
+                            </Link>
+
+                            <Link href={"/dashboard/Settings"}>
+                                <div className={`${dashboarScreendName === "Settings" ? "activeTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon" : "inactiveTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon"}`} >
                                     <IoSettingsOutline className='text-lg cursor-pointer' />
-                                </Link>
-                            </div>
+                                </div>
+                            </Link>
                         </div>
                     </div>
 
@@ -116,73 +120,73 @@ const DashboardSidebar = () => {
                                 <div>
                                     <div className="flex flex-col md:gap-8 gap-7 mt-3 items-start">
 
-                                        <div className="flex gap-6 items-center">
-                                            <div className={`${dashboarScreendName === undefined ? "activeTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon" : "inactiveTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon"}`}>
-                                                <Link href={"/dashboard"}>
+                                        <Link href={"/dashboard"}>
+                                            <div className="flex gap-6 items-center">
+                                                <div className={`${dashboarScreendName === undefined ? "activeTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon" : "inactiveTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon"}`}>
                                                     <MdDashboard className='text-lg cursor-pointer' onClick={() => setTabState("dashboard")} />
-                                                </Link>
+                                                </div>
+                                                <p onClick={() => setTabState("dashboard")} className={`${dashboarScreendName === undefined ? "text-white interFont md:text-lg drawerText lg:text-xl text-sm" : " drawerText sidebarText md:text-lg lg:text-xl text-sm interFont"}`}>Dashboard</p>
                                             </div>
-                                            <p onClick={() => setTabState("dashboard")} className={`${dashboarScreendName === undefined ? "text-white interFont md:text-lg drawerText lg:text-xl text-sm" : " drawerText sidebarText md:text-lg lg:text-xl text-sm interFont"}`}>Dashboard</p>
-                                        </div>
+                                        </Link>
 
 
-                                        <div className="flex gap-6 items-center">
-                                            <div className={`${dashboarScreendName === "Marketplace" ? "activeTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon" : "inactiveTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon"}`}>
-                                                <Link href={"/dashboard/Marketplace"}>
+                                        <Link href={"/dashboard/Marketplace"}>
+                                            <div className="flex gap-6 items-center">
+                                                <div className={`${dashboarScreendName === "Marketplace" ? "activeTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon" : "inactiveTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon"}`}>
                                                     <IoBagHandleOutline className='text-lg cursor-pointer' />
-                                                </Link>
+                                                </div>
+                                                <p className={`${dashboarScreendName === "Marketplace" ? "text-white interFont md:text-lg lg:text-xl drawerText text-sm" : "sidebarText drawerText md:text-lg lg:text-xl text-sm interFont"}`}>Market place</p>
                                             </div>
-                                            <p className={`${dashboarScreendName === "Marketplace" ? "text-white interFont md:text-lg lg:text-xl drawerText text-sm" : "sidebarText drawerText md:text-lg lg:text-xl text-sm interFont"}`}>Market place</p>
-                                        </div>
+                                        </Link>
 
-                                        <div className="flex gap-6 items-center">
-                                            <div className={`${dashboarScreendName === "Inventory" ? "activeTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon" : "inactiveTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon"}`} >
-                                                <Link href={"/dashboard/Inventory"}>
+                                        <Link href={"/dashboard/Inventory"}>
+                                            <div className="flex gap-6 items-center">
+                                                <div className={`${dashboarScreendName === "Inventory" ? "activeTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon" : "inactiveTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon"}`} >
                                                     <MdInventory className='text-lg cursor-pointer' />
-                                                </Link>
+                                                </div>
+                                                <p className={`${dashboarScreendName === "Inventory" ? "text-white interFont md:text-lg lg:text-xl drawerText text-sm" : "sidebarText drawerText md:text-lg lg:text-xl text-sm interFont"}`}>Inventory</p>
                                             </div>
-                                            <p className={`${dashboarScreendName === "Inventory" ? "text-white interFont md:text-lg lg:text-xl drawerText text-sm" : "sidebarText drawerText md:text-lg lg:text-xl text-sm interFont"}`}>Inventory</p>
-                                        </div>
+                                        </Link>
 
 
-                                        <div className="flex gap-6 items-center">
-                                            <div className={`${dashboarScreendName === "Premium" ? "activeTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon" : "inactiveTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon"}`}>
-                                                <Link href={"/dashboard/Premium"}>
+                                        <Link href={"/dashboard/Premium"}>
+                                            <div className="flex gap-6 items-center">
+                                                <div className={`${dashboarScreendName === "Premium" ? "activeTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon" : "inactiveTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon"}`}>
                                                     <MdWorkspacePremium className='text-lg cursor-pointer' />
-                                                </Link>
+                                                </div>
+                                                <p className={`${dashboarScreendName === "Premium" ? "text-white interFont md:text-lg lg:text-xl drawerText text-sm" : "sidebarText drawerText md:text-lg lg:text-xl text-sm interFont"}`}>Premium</p>
                                             </div>
-                                            <p className={`${dashboarScreendName === "Premium" ? "text-white interFont md:text-lg lg:text-xl drawerText text-sm" : "sidebarText drawerText md:text-lg lg:text-xl text-sm interFont"}`}>Premium</p>
-                                        </div>
+                                        </Link>
 
-                                        <div className="flex gap-6 items-center">
-                                            <div className={`${dashboarScreendName === "Stats" ? "activeTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon" : "inactiveTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon"}`}>
-                                                <Link href={"/dashboard/Stats"}>
+                                        <Link href={"/dashboard/Stats"}>
+                                            <div className="flex gap-6 items-center">
+                                                <div className={`${dashboarScreendName === "Stats" ? "activeTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon" : "inactiveTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon"}`}>
                                                     <AiOutlineBarChart className='text-xl cursor-pointer' />
-                                                </Link>
-                                                <p className={`${dashboarScreendName === "Stats" ? "text-white interFont md:text-lg lg:text-xl drawerText text-sm" : "sidebarText drawerText md:text-lg lg:text-xl text-sm interFont"}`}>Stats</p>
+                                                    <p className={`${dashboarScreendName === "Stats" ? "text-white interFont md:text-lg lg:text-xl drawerText text-sm" : "sidebarText drawerText md:text-lg lg:text-xl text-sm interFont"}`}>Stats</p>
+                                                </div>
                                             </div>
-                                        </div>
+                                        </Link>
 
-                                        <div className="flex gap-6 items-center">
-                                            <div className={`${dashboarScreendName === "Profile" ? "activeTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon" : "inactiveTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon"}`}>
-                                                <Link href={"/dashboard/Profile"}>
+                                        <Link href={"/dashboard/Profile"}>
+                                            <div className="flex gap-6 items-center">
+                                                <div className={`${dashboarScreendName === "Profile" ? "activeTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon" : "inactiveTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon"}`}>
                                                     <BiUserCircle className='text-2xl cursor-pointer' />
-                                                </Link>
+                                                </div>
+                                                <p className={`${dashboarScreendName === "Profile" ? "text-white interFont md:text-lg lg:text-xl drawerText text-sm" : "sidebarText drawerText md:text-lg lg:text-xl text-sm interFont"}`}>Profile</p>
                                             </div>
-                                            <p className={`${dashboarScreendName === "Profile" ? "text-white interFont md:text-lg lg:text-xl drawerText text-sm" : "sidebarText drawerText md:text-lg lg:text-xl text-sm interFont"}`}>Profile</p>
-                                        </div>
+                                        </Link>
 
 
-                                        <div className="flex gap-6 items-center">
-                                            <div className={`${dashboarScreendName === "Settings" ? "activeTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon" : "inactiveTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon"}`} >
-                                                <Link href={"/dashboard/Settings"}>
+                                        <Link href={"/dashboard/Settings"}>
+                                            <div className="flex gap-6 items-center">
+                                                <div className={`${dashboarScreendName === "Settings" ? "activeTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon" : "inactiveTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon"}`} >
                                                     <IoSettingsOutline className='text-lg cursor-pointer' />
-                                                </Link>
+                                                </div>
+                                                <p className={`${dashboarScreendName === "Settings" ? "text-white interFont md:text-lg lg:text-xl drawerText text-sm" : "sidebarText drawerText md:text-lg lg:text-xl text-sm interFont"}`}>Settings</p>
                                             </div>
-                                            <p className={`${dashboarScreendName === "Settings" ? "text-white interFont md:text-lg lg:text-xl drawerText text-sm" : "sidebarText drawerText md:text-lg lg:text-xl text-sm interFont"}`}>Settings</p>
-                                        </div>
+                                        </Link>
 
-                                        <div className="flex items-center gap-4">
+                                        <div className="flex items-center gap-[1.3rem]">
                                             <Image src={sidebarLogout} alt='' quality={100} />
                                             <p className='text-white text-sm font-light md:text-xl interFont drawerText'>Logout</p>
                                         </div>
@@ -219,11 +223,12 @@ const DashboardSidebar = () => {
                                     <div className="flex flex-col md:gap-8 gap-7 mt-3 items-start">
 
                                         <div className="flex gap-6 items-center">
-                                            <div className={`${dashboarScreendName === undefined ? "activeTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon" : "inactiveTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon"}`}>
-                                                <Link href={"/dashboard"}>
+                                            <Link href={"/dashboard"}>
+                                                <div className={`${dashboarScreendName === undefined ? "activeTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon" : "inactiveTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon"}`}>
                                                     <MdDashboard className='text-lg cursor-pointer' />
-                                                </Link>
-                                            </div>
+                                                </div>
+                                            </Link>
+
                                             <Link href={"/dashboard"}>
                                                 <p className={`${dashboarScreendName === "dashboard" ? "text-white interFont md:text-lg drawerText lg:text-xl text-sm" : " drawerText sidebarText md:text-lg lg:text-xl text-sm interFont"}`}>Dashboard</p>
                                             </Link>
@@ -231,22 +236,23 @@ const DashboardSidebar = () => {
 
 
                                         <div className="flex gap-6 items-center">
-                                            <div className={`${dashboarScreendName === "Marketplace" ? "activeTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon" : "inactiveTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon"}`}>
-                                                <Link href={"/dashboard/Marketplace"}>
+                                            <Link href={"/dashboard/Marketplace"}>
+                                                <div className={`${dashboarScreendName === "Marketplace" ? "activeTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon" : "inactiveTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon"}`}>
                                                     <IoBagHandleOutline className='text-lg cursor-pointer' />
-                                                </Link>
-                                            </div>
+                                                </div>
+                                            </Link>
+
                                             <Link href={"/dashboard/Marketplace"}>
                                                 <p className={`${dashboarScreendName === "Marketplace" ? "text-white interFont md:text-lg lg:text-xl drawerText text-sm" : "sidebarText drawerText md:text-lg lg:text-xl text-sm interFont"}`}>Market place</p>
                                             </Link>
                                         </div>
 
                                         <div className="flex gap-6 items-center">
-                                            <div className={`${dashboarScreendName === "Inventory" ? "activeTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon" : "inactiveTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon"}`} >
-                                                <Link href={"/dashboard/Inventory"}>
+                                            <Link href={"/dashboard/Inventory"}>
+                                                <div className={`${dashboarScreendName === "Inventory" ? "activeTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon" : "inactiveTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon"}`} >
                                                     <MdInventory className='text-lg cursor-pointer' />
-                                                </Link>
-                                            </div>
+                                                </div>
+                                            </Link>
                                             <Link href={"/dashboard/Inventory"}>
                                                 <p className={`${dashboarScreendName === "Inventory" ? "text-white interFont md:text-lg lg:text-xl drawerText text-sm" : "sidebarText drawerText md:text-lg lg:text-xl text-sm interFont"}`}>Inventory</p>
                                             </Link>
@@ -254,11 +260,11 @@ const DashboardSidebar = () => {
 
 
                                         <div className="flex gap-6 items-center">
-                                            <div className={`${dashboarScreendName === "Premium" ? "activeTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon" : "inactiveTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon"}`}>
-                                                <Link href={"/dashboard/Premium"}>
+                                            <Link href={"/dashboard/Premium"}>
+                                                <div className={`${dashboarScreendName === "Premium" ? "activeTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon" : "inactiveTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon"}`}>
                                                     <MdWorkspacePremium className='text-lg cursor-pointer' />
-                                                </Link>
-                                            </div>
+                                                </div>
+                                            </Link>
                                             <Link href={"/dashboard/Premium"}>
                                                 <p className={`${dashboarScreendName === "Premium" ? "text-white interFont md:text-lg lg:text-xl drawerText text-sm" : "sidebarText drawerText md:text-lg lg:text-xl text-sm interFont"}`}>Premium</p>
                                             </Link>
@@ -266,41 +272,43 @@ const DashboardSidebar = () => {
 
 
                                         <div className="flex gap-6 items-center">
-                                            <div className={`${dashboarScreendName === "Stats" ? "activeTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon" : "inactiveTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon"}`}>
-                                                <Link href={"/dashboard/Stats"}>
+                                            <Link href={"/dashboard/Stats"}>
+                                                <div className={`${dashboarScreendName === "Stats" ? "activeTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon" : "inactiveTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon"}`}>
                                                     <AiOutlineBarChart className='text-xl cursor-pointer' />
-                                                </Link>
-                                            </div>
+                                                </div>
+                                            </Link>
+                                            
                                             <Link href={"/dashboard/Stats"}>
                                                 <p className={`${dashboarScreendName === "Stats" ? "text-white interFont md:text-lg lg:text-xl drawerText text-sm" : "sidebarText drawerText md:text-lg lg:text-xl text-sm interFont"}`}>Stats</p>
                                             </Link>
                                         </div>
 
                                         <div className="flex gap-6 items-center">
-                                            <div className={`${dashboarScreendName === "Profile" ? "activeTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon" : "inactiveTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon"}`}>
-                                                <Link href={"/dashboard/Profile"}>
+                                            <Link href={"/dashboard/Profile"}>
+                                                <div className={`${dashboarScreendName === "Profile" ? "activeTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon" : "inactiveTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon"}`}>
                                                     <BiUserCircle className='text-2xl cursor-pointer' />
-                                                </Link>
-                                            </div>
+                                                </div>
+                                            </Link>
+
                                             <Link href={"/dashboard/Profile"}>
                                                 <p className={`${dashboarScreendName === "Profile" ? "text-white interFont md:text-lg lg:text-xl drawerText text-sm" : "sidebarText drawerText md:text-lg lg:text-xl text-sm interFont"}`}>Profile</p>
                                             </Link>
                                         </div>
 
-
                                         <div className="flex gap-6 items-center">
-                                            <div className={`${dashboarScreendName === "Settings" ? "activeTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon" : "inactiveTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon"}`} >
-                                                <Link href={"/dashboard/Settings"}>
+                                            <Link href={"/dashboard/Settings"}>
+                                                <div className={`${dashboarScreendName === "Settings" ? "activeTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon" : "inactiveTabSidebar flex justify-center items-center w-12 h-12 sidebarIndivitualIcon"}`} >
                                                     <IoSettingsOutline className='text-lg cursor-pointer' />
-                                                </Link>
-                                            </div>
+                                                </div>
+                                            </Link>
+
                                             <Link href={"/dashboard/Settings"}>
                                                 <p className={`${dashboarScreendName === "Settings" ? "text-white interFont md:text-lg lg:text-xl drawerText text-sm" : "sidebarText drawerText md:text-lg lg:text-xl text-sm interFont"}`}>Settings</p>
                                             </Link>
                                         </div>
 
-                                     
-                                        <div className="flex items-center gap-4 relative left-1">
+
+                                        <div className="flex items-center gap-[1.3rem] relative left-1">
                                             <Image src={sidebarLogout} alt='' quality={100} />
                                             <p className='text-white text-sm font-light md:text-xl interFont drawerText'>Logout</p>
                                         </div>

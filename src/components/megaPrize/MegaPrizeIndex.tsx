@@ -39,6 +39,7 @@ const MegaPrizeIndex = () => {
             title: "get 5 kills with vandal using jett", //  vandal (uppercase) rest all capitalize
             points: 100,
         },
+        
     ]
 
     const leaderboardDataAllPlayers: challendDataType = [
@@ -192,7 +193,7 @@ const MegaPrizeIndex = () => {
                             <div className="lg:h-[3rem] md:h-[2.99rem] bg-[#0B111F] premiumBox3 relative top-[4.4rem] md:top-[4.7rem] w-[72%] left-[0.5rem] md:left-0 h-12 md:w-[45%] lg:w-[48%] ">
                             </div>
                         </div>
-                        <p className='text-[#A3C7D7] text-sm -left-2 md:left-0 md:text-base relative top-10 text-center'>MEGA CHALLENGE</p>
+                        <p className='text-[#A3C7D7] text-xs -left-2 md:left-0 md:text-base relative top-10 text-center'>MEGA CHALLENGE</p>
                         <div className="w-[38rem] h-[21.1rem] maegaPrizeBox2 border-[#43E5F1] border-[1px] bg-[#43E5F1] megaprizeOuterBox1   my-10 ">
                             <div className="w-[38rem] h-[21rem] maegaPrizeBox2 border-[#43E5F1]  bg-[#000000] MeagPrizeBoxInnder">
                                 <div className="flex flex-col items-center gap-4 pt-12 ">
@@ -207,6 +208,7 @@ const MegaPrizeIndex = () => {
                                         )
                                     })}
                                 </div>
+                                <br />
                             </div>
 
                         </div>
