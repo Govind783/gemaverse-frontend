@@ -109,7 +109,7 @@ const DashboardDailyChallenge = () => {
 
             <div className="">
 
-                <div className="soloChallengesHold relative left-[0.3rem] md:left-0 flex flex-wrap gap-16 justify-center">
+                <div className="soloChallengesHold relative left-[0.3rem] md:left-0 gridDimensionsDailyHold">
                     {soloChallengeDataArr.map((item) => {
                         return (
                             <div key={item.id}>
@@ -419,3 +419,4 @@ const DashboardDailyChallenge = () => {
 }
 
 export default DashboardDailyChallenge
+//                 <div className="soloChallengesHold relative left-[0.3rem] md:left-0 flex flex-wrap gap-16 justify-center">

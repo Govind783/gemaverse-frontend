@@ -945,6 +945,26 @@ body {
   border-style: solid;
 }
 
+/*  GRID CHANGES  */
+.gridDimensionsDailyHold {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(22.7rem, 1fr)) !important;
+  row-gap: 3rem;
+  justify-items: center;
+  justify-content: center;
+  width: 89%;
+  column-gap: 0.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media(min-width:1800px){
+  .gridDimensionsDailyHold{
+    width: 86%;
+  }
+}
+
+
 .soloChallengeRedBorder {
   border-image: linear-gradient(31.52deg, #000000 2.72%, #FF4655 150.91%) 9 !important;
   border-width: 1px;
@@ -1017,7 +1037,7 @@ body {
 
   .soloChallengesHold {
     position: relative;
-    left: -0.1rem;
+    left: -0.07rem;
   }
 
   .soloChallengeIndivitualCard {
@@ -1142,6 +1162,11 @@ body {
   margin-right: auto;
 }
 
+@media(min-width:1800px){
+  .challengeDimensions{
+    width: 86%;
+  }
+}
 
 /* DASHBOARD homePage of dashboard CHALLENGE END  */
 
