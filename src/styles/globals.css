@@ -958,6 +958,8 @@ body {
   margin-right: auto;
 }
 
+
+/*  GRID CHANGES  */
 @media(min-width:1800px){
   .gridDimensionsDailyHold{
     width: 86%;
