@@ -118,7 +118,7 @@ const MarketplaceIndex = () => {
                         </div>
 
                         <div className="flex flex-col gap-2 -mt-8 marketPlaceTextContaier">
-                            <p className='text-6xl tracking-widest blackBoxFont text-white'>
+                            <p className='text-6xl tracking-widest blackBoxFont text-white w-[61rem]'>
                                 GET GAMING ACCESSORIES IN HALF PRIZE
                             </p>
                             <div className='text-gray-400 lg:w-[38rem] md:w-[99%] w-full'>
