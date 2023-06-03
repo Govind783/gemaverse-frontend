@@ -376,9 +376,9 @@ body {
   background-position: top;
   height: 49rem;
   position: relative;
-  top: -1rem;
-  /*padding-top: 1rem;*/
+  top: -4rem;
   padding-top: 8rem;
+
 }
 
 @media(max-width:600px) {
