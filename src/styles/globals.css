@@ -3745,6 +3745,11 @@ svg {
 }
 
 
+@media(max-width : 505px) {
+  .dottedLineChartBg {
+   height: 1.1rem;
+  }
+}
 
 
 @media(max-width : 1405px) {
