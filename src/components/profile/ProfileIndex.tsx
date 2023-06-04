@@ -332,37 +332,37 @@ const ProfileIndex = () => {
                                         <div className='relative -top-[18.5rem] left-4'>
                                             <div className="flex gap-3 justify-center items-center mt-4">
                                                 <p className='text-red-500 font-semibold text-xs'>12</p>
-                                                <Image src={chartLineBg} alt='' quality={100} />
+                                                <Image src={chartLineBg} alt='' quality={100} className="dottedLineChartBg" />
                                             </div>
 
                                             <div className="flex gap-3 justify-center items-center mt-4">
                                                 <p className='text-red-500 font-semibold text-xs'>10</p>
-                                                <Image src={chartLineBg} alt='' quality={100} />
+                                                <Image src={chartLineBg} alt='' quality={100} className="dottedLineChartBg" />
                                             </div>
 
                                             <div className="flex gap-3 justify-center items-center mt-4">
                                                 <p className='text-red-500 font-semibold text-xs'>8</p>
-                                                <Image src={chartLineBg} alt='' quality={100} />
+                                                <Image src={chartLineBg} alt='' quality={100} className="dottedLineChartBg" />
                                             </div>
 
                                             <div className="flex gap-3 justify-center items-center mt-4">
                                                 <p className='text-red-500 font-semibold text-xs'>6</p>
-                                                <Image src={chartLineBg} alt='' quality={100} />
+                                                <Image src={chartLineBg} alt='' quality={100} className="dottedLineChartBg" />
                                             </div>
 
                                             <div className="flex gap-3 justify-center items-center mt-4">
                                                 <p className='text-red-500 font-semibold text-xs'>4</p>
-                                                <Image src={chartLineBg} alt='' quality={100} />
+                                                <Image src={chartLineBg} alt='' quality={100} className="dottedLineChartBg" />
                                             </div>
 
                                             <div className="flex gap-3 justify-center items-center mt-4">
                                                 <p className='text-red-500 font-semibold text-xs'>2</p>
-                                                <Image src={chartLineBg} alt='' quality={100} />
+                                                <Image src={chartLineBg} alt='' quality={100} className="dottedLineChartBg" />
                                             </div>
 
                                             <div className="flex gap-3 justify-center items-center mt-4">
                                                 <p className='text-red-500 font-semibold text-xs'>0</p>
-                                                <Image src={chartLineBg} alt='' quality={100} />
+                                                <Image src={chartLineBg} alt='' quality={100} className="dottedLineChartBg" />
                                             </div>
                                         </div>
 
